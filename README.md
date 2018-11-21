@@ -8,7 +8,6 @@ Edit /etc/ansible/hosts with proper data:
 ansible_python_interpreter="/usr/bin/env python3"
 ansible_ssh_private_key_file=/home/nicola/.ssh/mykey
 ansible_ssh_user=ubuntu
-
-[control]
-18.202.22.11
 ```
+
+Edit my_topology with IPs
