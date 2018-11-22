@@ -11,3 +11,12 @@ ansible_ssh_user=ubuntu
 ```
 
 Edit my_topology with IPs
+
+
+Create roles folder:  mkdir roles
+Create ansible structure inside it:   
+```
+cd roles
+ansible-galaxy init <name>
+```
+
